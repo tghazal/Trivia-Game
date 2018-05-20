@@ -38,13 +38,17 @@ body {
     background-color: black;
 }
 
-.title
+.multiPDiv
 {
     background-color: #800000;
 }
 #result
 {
     background-color: #800000;
+}
+#start
+{
+    background-color: #008080;
 }
 #button-1
 {
