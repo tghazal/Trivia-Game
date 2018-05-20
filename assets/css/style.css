@@ -13,7 +13,7 @@ body {
 .Question{
     width:100%;
    height: 130px;
-   font-size: 25px;
+   font-size: 22px;
    text-align: center;
    
 }
@@ -53,17 +53,21 @@ body {
 #button-1
 {
     background-color: #008080;
+    font-size: 17px;
 }
 
 #button-2
 {
     background-color: #660000;
+    font-size: 17px;
 }
 #button-3
 {
     background-color:#ac814a;
+    font-size: 17px;
 }
 #button-4
 {
     background-color: #004040;
+    font-size: 17px;
 }
