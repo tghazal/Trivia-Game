@@ -1,13 +1,13 @@
 var myInterval;
-var count = 10;
+var count = 30;
 //define trivia object 
 var trivia = {
     //arrays of questions and asnwers
     questions: [" The keyword or the property that you use to refer to an object through which they were invoked is?", "The property of JSON() method is:?", "When a class B can extend another class A, we say that?","The method that can be used to create new properties and also to modify the attributes of existing properties is","The meaning for Augmenting classes is that"],
     answers1: ["A) from", "A)  it can be invoked manually as object.JSON()", "A) A is the superclass and B is the subclass","A)Object.defineProperty()","A)objects inherit prototype properties even in dynamic state"],
     answers2: ["B) to", "B) it will be automatically invoked by the compiler", "B) B is the superclass and A is the subclass","B) Object.defineProperties()","B)objects inherit prototype properties only in dynamic state"],
-    answers3: ["C) this", "C) it is invoked automatically by the JSON.stringify() method", "C) Both A and B are the superclass","C)Both Object.defineProperty() and Object.defineProperties()","objects inherit prototype properties in static state"],
-    answers4: ["D) object", "D) it cannot be invoked in any form", "D) Both A and B are the subclass","D) None of the mentioned","D)None of the mentioned"],
+    answers3: ["C) this", "C) it is invoked automatically by the JSON.stringify() method", "C) Both A and B are the superclass","C) Both Object.defineProperty() and Object.defineProperties()","C) objects inherit prototype properties in static state"],
+    answers4: ["D) object", "D) it cannot be invoked in any form", "D) Both A and B are the subclass","D) None of the mentioned","D) None of the mentioned"],
     correctAnswers: [{"number":"C","value":"this"}, {"number":"C","value":" it is invoked automatically by the JSON.stringify() method"}, {"number":"A","value":"A is the superclass and B is the subclass"},{"number":"C","value":"Both Object.defineProperty() and Object.defineProperties()"},{"number":"A","value":"objects inherit prototype properties even in dynamic state"}],
     index: 0,
     correct: 0,
@@ -156,7 +156,8 @@ var displayTimer = function () {
 //  go back to question method to display the questions and answers if there still questions not displayed 
 var goBackToQuestion=function()
 { 
-    count = 10;
+    count = 30
+    ;
     //increase the index to shoe new question and answes 
     trivia.index++;
    // if the user saw all the question then go to the fina result screen 
